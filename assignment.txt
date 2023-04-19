@@ -1,0 +1,72 @@
+In a notebook, please perform the following tasks:
+
+Problem 1:
+
+Predicting prices: Using any of the methods for prediction you have learned (With the exception of linear regression!) , use the dataset in this Kaggle page:
+https://www.kaggle.com/altavish/boston-housing-dataset
+and find a good prediction model for the the median value of housing (MEDV). The variables in the dataset are as follows
+
+CRIM: Per capita crime rate by town
+ZN: Proportion of residential land zoned for lots over 25,000 sq. ft
+INDUS: Proportion of non-retail business acres per town
+CHAS: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+NOX: Nitric oxide concentration (parts per 10 million)
+RM: Average number of rooms per dwelling
+AGE: Proportion of owner-occupied units built prior to 1940
+DIS: Weighted distances to five Boston employment centers
+RAD: Index of accessibility to radial highways
+TAX: Full-value property tax rate per 10,000
+PTRATIO: Pupil-teacher ratio by town
+B: 1000(Bk — 0.63)², where Bk is the proportion of [people of African American descent] by town
+LSTAT: Percentage of lower status of the population
+MEDV: Median value of owner-occupied homes in $1000s
+Make sure to deal with null values and find the best hyperparameters you can for your choice of model (use train/test split or crossvalidation). Watch out for outliers!
+
+Problem 2
+
+Classification: Using the following dataset:
+https://www.kaggle.com/vikasukani/parkinsons-disease-data-set
+Create the best classification model you can using what we learned in class. Use any of the methods we explored and show how you assessed how good your model is carefully. Using AUC is a good idea. The label variable is "status." Hint: .data files can be read with read_csv like:
+
+pd.read_csv('parkinsons.data')
+
+The variables are as follows:
+
+
+name - ASCII subject name and recording number
+
+MDVP:Fo(Hz) - Average vocal fundamental frequency
+
+MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
+
+MDVP:Flo(Hz) - Minimum vocal fundamental frequency
+
+MDVP:Jitter(%) , MDVP:Jitter(Abs) , MDVP:RAP , MDVP:PPQ , Jitter:DDP - Several measures of variation in fundamental frequency
+
+MDVP:Shimmer , MDVP:Shimmer(dB) , Shimmer:APQ3 , Shimmer:APQ5 , MDVP:APQ , Shimmer:DDA - Several measures of variation in amplitude
+
+NHR , HNR - Two measures of ratio of noise to tonal components in the voice
+
+status - Health status of the subject (one) - Parkinson's, (zero) - healthy
+
+RPDE , D2 - Two nonlinear dynamical complexity measures
+
+DFA - Signal fractal scaling exponent
+
+spread1 , spread2 , PPE - Three nonlinear measures of fundamental frequency variation
+
+
+Problem 3
+
+Dataset for final project Initial ideas:  Find 2 possible open datasets (or a way to construct a dataset), and present the following:
+
+Context of the dataset: What is interesting about the dataset? What questions could you ask that are interesting? How would you first explore the data? (No need to perform exploration at this moment)
+
+Here are some places to find datasets:
+
+https://www.kdnuggets.com/datasets/index.html
+
+Methodology: How do you think you want to answer your question? 
+
+Present links for references if available. 
+
